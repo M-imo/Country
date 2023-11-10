@@ -14,6 +14,8 @@
 		5561E6B92AFE5E5900ADD3AD /* CountryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561E6B82AFE5E5900ADD3AD /* CountryTests.swift */; };
 		5561E6C32AFE5E5900ADD3AD /* CountryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561E6C22AFE5E5900ADD3AD /* CountryUITests.swift */; };
 		5561E6C52AFE5E5900ADD3AD /* CountryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561E6C42AFE5E5900ADD3AD /* CountryUITestsLaunchTests.swift */; };
+		5561E6D22AFE5E8900ADD3AD /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561E6D12AFE5E8900ADD3AD /* ApiModel.swift */; };
+		5561E6D42AFE5EC700ADD3AD /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561E6D32AFE5EC700ADD3AD /* CountryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5561E6BE2AFE5E5900ADD3AD /* CountryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5561E6C22AFE5E5900ADD3AD /* CountryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryUITests.swift; sourceTree = "<group>"; };
 		5561E6C42AFE5E5900ADD3AD /* CountryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5561E6D12AFE5E8900ADD3AD /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
+		5561E6D32AFE5EC700ADD3AD /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				5561E6A72AFE5E5700ADD3AD /* CountryApp.swift */,
 				5561E6A92AFE5E5700ADD3AD /* ContentView.swift */,
+				5561E6D32AFE5EC700ADD3AD /* CountryViewModel.swift */,
+				5561E6D12AFE5E8900ADD3AD /* ApiModel.swift */,
 				5561E6AB2AFE5E5800ADD3AD /* Assets.xcassets */,
 				5561E6AD2AFE5E5800ADD3AD /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5561E6AA2AFE5E5700ADD3AD /* ContentView.swift in Sources */,
+				5561E6D42AFE5EC700ADD3AD /* CountryViewModel.swift in Sources */,
+				5561E6D22AFE5E8900ADD3AD /* ApiModel.swift in Sources */,
 				5561E6A82AFE5E5700ADD3AD /* CountryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
